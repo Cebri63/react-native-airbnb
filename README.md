@@ -42,7 +42,7 @@
 
 Be sure, you have installed all dependencies and applications to run React Native Expo project on your computer : [Getting Started with React Native](https://facebook.github.io/react-native/docs/getting-started).
 
-This project works pretty fine for iOS and Android.
+This project works pretty fine for iOS **and** Android.
 
 ### Running the project
 
