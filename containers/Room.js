@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 import { useRoute } from "@react-navigation/core";
 import axios from "axios";
-import { ScrollView } from "react-native-gesture-handler";
+import {
+  ScrollView,
+  TouchableWithoutFeedback
+} from "react-native-gesture-handler";
 import RoomCard from "../components/RoomCard";
 
 import MapView from "react-native-maps";
@@ -11,6 +14,7 @@ const Room = () => {
   const { params } = useRoute();
   const [data, setData] = useState("");
   const [isLoading, setIsLoading] = useState(true);
+  const [viewMore, setViewMore] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,13 +34,17 @@ const Room = () => {
   ) : (
     <ScrollView>
       <RoomCard border={false} data={data} />
-      <View style={styles.container}>
-        <Text numberOfLines={4} style={styles.description}>
+      <TouchableWithoutFeedback
+        onPress={() => setViewMore(!viewMore)}
+        style={styles.container}
+      >
+        <Text numberOfLines={viewMore ? null : 4} style={styles.description}>
           {data.description}
         </Text>
-      </View>
+      </TouchableWithoutFeedback>
       <View style={{ marginHorizontal: 20 }}>
         <MapView
+          scrollEnabled={false}
           style={{
             flex: 1,
             height: 200
