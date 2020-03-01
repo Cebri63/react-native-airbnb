@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-	<img src="https://github.com/lereacteur/react-native-airbnb/blob/master/preview/kapture.gif" width="300">
+	<img src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/kapture.gif" width="300">
 </p>
 
 ## Overview
@@ -16,19 +16,19 @@
 <img
 		width="210"
 		alt="Capture 1"
-		src="https://github.com/lereacteur/react-native-airbnb/blob/master/preview/login.png">
+		src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/login.png">
 <img
 		width="210"
 		alt="Capture 2"
-		src="https://github.com/lereacteur/react-native-airbnb/blob/master/preview/home.png">
+		src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/home.png">
 <img
 		width="210"
 		alt="Capture 3"
-		src="https://github.com/lereacteur/react-native-airbnb/blob/master/preview/room.png">
+		src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/room.png">
 <img
 		width="210"
 		alt="Capture 4"
-		src="https://github.com/lereacteur/react-native-airbnb/blob/master/preview/aroundme.png">
+		src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/aroundme.png">
 
 ## Packages
 
