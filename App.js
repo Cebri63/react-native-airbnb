@@ -8,7 +8,6 @@ import HomeScreen from "./containers/HomeScreen";
 import ProfileScreen from "./containers/ProfileScreen";
 import SignInScreen from "./containers/SignInScreen";
 import SignUpScreen from "./containers/SignUpScreen";
-import SettingsScreen from "./containers/SettingsScreen";
 import AroundMe from "./containers/AroundMe";
 import Room from "./containers/Room";
 import { ActionSheetProvider } from "@expo/react-native-action-sheet";
