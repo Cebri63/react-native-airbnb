@@ -50,7 +50,7 @@ This project works pretty fine for iOS **and** Android.
 Clone this repository :
 
 ```
-git clone https://github.com/lereacteur/react-native-airbnb.git
+git clone https://github.com/cebri63/react-native-airbnb.git
 cd react-native-airbnb
 ```
 
