@@ -106,7 +106,7 @@ export default function App() {
                         <Stack.Screen
                           name="Home"
                           options={{
-                            title: "My Airbnb",
+                            title: "List",
                             tabBarLabel: "Home",
                             headerStyle: { backgroundColor: "#F1485C" },
                             headerTitleStyle: { color: "white" },
@@ -118,6 +118,15 @@ export default function App() {
                         <Stack.Screen
                           name="Room"
                           options={{
+                            headerBackTitleVisible: false,
+                            headerBackImage: () => (
+                              <Ionicons
+                                style={{ marginLeft: 20 }}
+                                name={"ios-arrow-back"}
+                                size={30}
+                                color={"white"}
+                              />
+                            ),
                             title: "Room",
                             headerStyle: { backgroundColor: "#F1485C" },
                             headerTitleStyle: { color: "white" },
