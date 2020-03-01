@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-	<img src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/kapture.gif" width="600">
+	<img src="https://github.com/Cebri63/react-native-airbnb/blob/master/preview/kapture.gif" width="800">
 </p>
 
 ## Overview
